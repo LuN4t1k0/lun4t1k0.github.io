@@ -95,4 +95,15 @@ section {
 
 #hero p{
     color: var(--white);
+    font-size: 1.125em;
+    max-width: 450px;
+}
+
+.btn {
+    padding: 1.25em 2.75em; 
+    border-width: 2px;
+    font-size: 0.875em;
+    font-weight: 700;
+    text-transform: uppercase;
+    
 }
