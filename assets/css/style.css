@@ -118,7 +118,8 @@ section {
 }
 
 #hero span{
-    background-color: #a4c7ef;
+    /* background-color: #a4c7ef; */
+    background-color: #fff2a8;
     padding: 0.3em;
 }
 .btn {
@@ -128,6 +129,8 @@ section {
     font-size: 0.875em;
     font-weight: 700;
     text-transform: uppercase;
-    color: black;
+    background-color: #000;
+    color: var(--white);
+    
     
 }
