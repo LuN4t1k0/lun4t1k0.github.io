@@ -81,7 +81,7 @@ section {
 
 
 #hero {
-    background-image: url("/assets/img/cris.jpg");
+    background-image: url("/assets/img/cris2.jpg");
     min-height: 100vh;
     background-position: center;
     background-size: cover;
@@ -90,20 +90,44 @@ section {
 #hero h1{
     color: var(--white);
     font-weight: 900;
+
+}
+.text-rigth{
+    padding-right: 50px;
+    text-align: right;
+    background-color: black;
+    opacity: 50%;
+    width: 70%;
+}
+
+.text-left{
+    padding-left: 50px;
+    text-align: left;
+    background-color: black;
+    opacity: 50%;
+    width: 70%;
 }
 
 
 #hero p{
-    color: var(--white);
+    color: black;
     font-size: 1.125em;
     max-width: 450px;
+    
+    
 }
 
+#hero span{
+    background-color: #a4c7ef;
+    padding: 0.3em;
+}
 .btn {
-    padding: 1.25em 2.75em; 
+    padding: 1.25em 2.75em;
+    border-color: black; 
     border-width: 2px;
     font-size: 0.875em;
     font-weight: 700;
     text-transform: uppercase;
+    color: black;
     
 }
