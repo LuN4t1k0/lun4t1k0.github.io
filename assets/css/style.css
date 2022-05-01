@@ -39,7 +39,7 @@ img {
 
 section {
     padding-top: 170px;
-    padding-bottom: 170px;
+    /* padding-bottom: 170px; */
 }
 
 /* navbar */
@@ -51,6 +51,8 @@ section {
     z-index: 9999;
 }
 
+.navbar a {}
+
 .navbar .navbar-nav .nav-link {
     text-transform: uppercase;
     font-size: 0.875em;
@@ -59,6 +61,8 @@ section {
 .navbar-brand {
     font-size: 1.75em;
     text-transform: uppercase;
+    padding-left: 20px;
+    
 }
 
 .social-links a {
@@ -133,4 +137,98 @@ section {
     color: var(--white);
     
     
+}
+
+.intro{
+    margin-bottom: 3.75em;
+   
+}
+
+.intro h1 {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.intro p{
+    width: 500px;
+    
+}
+
+.line {
+    width: 3.75em;
+    height: 0.25em;
+    background-color: black;
+    display: inline-block;
+}
+
+.service{
+    display: flex;
+    border : var(--border-width) solid var(--border-color);
+}
+
+.service .icon{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;    
+    margin-right: 1em;
+    border-radius: var(--border-radius);
+}
+
+/* carrusel */
+.card-wrapper {
+    display: flex;
+}
+.card{
+    margin: 0 .5em;
+    width: calc(100%/3);
+}
+
+.image-wrapper{
+    height: 22vw;
+}
+
+.image-wrapper img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* contact */
+#contact form {
+    /* padding: 32px; */
+    padding-top: 23px;
+    
+    border: var(--border-width) solid var(--border-color);
+    
+}
+
+#contact form .form-control {
+    background-color: #f8f8f8;
+    border: transparent;
+    padding-left: 18px;
+    margin-bottom: 0;
+}
+
+#contact form input.form-control {
+    height: 56px;
+}
+
+/* footer */
+.footer-top {
+    padding-bottom: 30px;
+    border-bottom: var(--border-width) solid var(--border-color);
+}
+
+.footer-bottom {
+    /* padding-top: 30px; */
+    padding-bottom: 30px;
+}
+
+footer .social-links a {
+    border: var(--border-width) solid var(--border-color);
 }
