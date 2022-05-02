@@ -72,6 +72,8 @@ img {
     /* text-shadow: #202631 0px 0px 10px; */
 }
 
+
+
 .navbar span {
     font-size: 1.5em;
     background-color: #000;
@@ -82,6 +84,7 @@ img {
     font-size: 1.75em;
     text-transform: uppercase;
     padding-left: 20px;
+    text-shadow: #202631 1px 0px 10px;
     
 
 }
