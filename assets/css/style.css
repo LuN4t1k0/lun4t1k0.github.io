@@ -238,7 +238,7 @@ html {
 }
 
 #sec-2 {
-    background-color: #fff;
+    background-color: #fff2a8;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -254,15 +254,41 @@ html {
 }
 
 #sec-3 {
-    background-color: #fff;
+    background-color: #F6F7F2;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     position: relative;
+}
+#sec-3 .btn {
+    width: 100%;
+}
 
+#sec-3 img{
+    filter: grayscale(100%);
+    /* filter: blur(10px); */
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#sec-3 img:hover{
+    filter: grayscale(0%);
+}
+
+.card-body {
+    background-color: #F6F7F2;
 
 }
+
+.sec-32{
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#contact{}
 
 #sec-4 {
     background-color: #fff;
