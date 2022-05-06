@@ -263,23 +263,27 @@ html {
 }
 #sec-3 .btn {
     width: 100%;
+    
+    /* padding: 0%; */
 }
 
-#sec-3 img{
+/* #sec-3 img{
     filter: grayscale(100%);
-    /* filter: blur(10px); */
+
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
 
 #sec-3 img:hover{
     filter: grayscale(0%);
-}
+} */
 
 .card-body {
     background-color: #F6F7F2;
 
 }
+
+
 
 .sec-32{
     
