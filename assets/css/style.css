@@ -141,8 +141,14 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
     #sec-1 {
-        background-image: url("./assets/img/code.jpeg"); 
+        background-image: url("/assets/img/code.jpeg");
+        /* filter: grayscale(100%);   */
+       
         background-color: #2f3339;
+    }
+    #sec-1 span {
+        background-color: #0dff8e;
+        padding: 0.3em;
     }
 }
 
@@ -342,8 +348,19 @@ a:hover {
 }
 #sec-3 .btn {
     width: 100%;
-    
+}
 
+#sec-3 img {
+    filter: grayscale(100%);
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+}
+
+#sec-3 img:hover{
+    filter: grayscale(0%);
+    filter: grayscale(0%);
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 
@@ -370,4 +387,8 @@ a:hover {
     position: relative;
 
 
+}
+
+#contact .btn {
+    width: 100%;
 }
