@@ -14,14 +14,6 @@ html {
     scroll-behavior: smooth;
 }
 
-/* section {
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-} */
 
 /* nav */
 
@@ -148,11 +140,8 @@ a:hover {
 }
 
 @media only screen and (max-width: 767px) {
-    #sec-1 {
-
-        background-image: url("/assets/img/cris-movil.jpg");
-
-
+    #sec-1 {    
+        background-color: #2f3339;
     }
 }
 
@@ -197,7 +186,7 @@ a:hover {
 .scroll-down::before {
     top: 30%;
     animation-delay: 0.3s;
-    /* animation: scroll-down 1s ease-in-out infinite; */
+    
 }
 
 @keyframes scroll-down {
@@ -250,7 +239,7 @@ a:hover {
 .scroll-down2::before {
     top: 30%;
     animation-delay: 0.3s;
-    /* animation: scroll-down 1s ease-in-out infinite; */
+   
 }
 
 @keyframes scroll-down2 {
@@ -303,7 +292,7 @@ a:hover {
 .scroll-down3::before {
     top: 30%;
     animation-delay: 0.3s;
-    /* animation: scroll-down 1s ease-in-out infinite; */
+  
 }
 
 @keyframes scroll-down3 {
@@ -353,26 +342,14 @@ a:hover {
 #sec-3 .btn {
     width: 100%;
     
-    /* padding: 0%; */
+
 }
 
-/* #sec-3 img{
-    filter: grayscale(100%);
-
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-}
-
-#sec-3 img:hover{
-    filter: grayscale(0%);
-} */
 
 .card-body {
     background-color: #F6F7F2;
 
 }
-
-
 
 .sec-32{
     
@@ -381,7 +358,7 @@ a:hover {
     position: relative;
 }
 
-#contact{}
+
 
 #sec-4 {
     background-color: #fff;
