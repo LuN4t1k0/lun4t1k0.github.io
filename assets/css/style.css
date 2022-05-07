@@ -141,7 +141,7 @@ a:hover {
 
 @media only screen and (max-width: 767px) {
     #sec-1 {
-        background-image: none;   
+        background-image: url("./assets/img/code.jpeg"); 
         background-color: #2f3339;
     }
 }
